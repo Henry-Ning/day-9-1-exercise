@@ -14,6 +14,7 @@ student_grades = {}
 #TODO-2: Write your code below to add the grades to student_grades.👇
 
 for student in student_scores:
+#The following is what's unfamiliar
   if student_scores[student] > 90:
     student_grades[student] = "Outstanding"
   elif student_scores[student] > 80:
@@ -26,6 +27,8 @@ for student in student_scores:
 
 # 🚨 Don't change the code below 👇
 print(student_grades)
+
+
 
 
 
